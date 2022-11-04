@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int apples;
+    int pears;
+    int bananas;
+    string name;
+
+    cout << name << "\n";
+    cin >> name;
+    cout << "Enter amount of apples: ";
+    cin >> apples;
+    cout << "Enter amount of pears: ";
+    cin >> pears;
+    cout << "Enter amount of bananas: ";
+    cin >> bananas;
+
+    cout << name << ", don't forget to buy " << apples << " apples, " << pears << " pears and " << bananas << " bananas!" << endl;
+    return 0;
+}
